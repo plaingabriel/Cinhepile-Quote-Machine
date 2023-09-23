@@ -11,15 +11,12 @@ export function QuoteBox() {
     const [index, setIndex] = useState(randomIndex());
     // Set new state
     const handleClick = () => {
-        let flag = false;
-        do {
-            const newIndex = randomIndex();
-            if (index != newIndex) {
-                setIndex(newIndex);
-                flag === true;
-            }
-        } while (!flag);
-        return 0;
+        const newIndex = randomIndex();
+        if (index != newIndex) {
+            setIndex(newIndex);
+        } else {
+            setIndex(newIndex+1);
+        }
     }
     // Target the quote from the import array
     let quote = P[index];
