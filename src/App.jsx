@@ -39,7 +39,7 @@ export function QuoteBox() {
                 </div>
                 <div id="click-zone" className="p-2 row justify-content-between">
 
-                    <a href="twitter.com/intent/tweet" target="_blank" className="col-1 fs-1">
+                    <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank" className="col-1 fs-1">
                         <i class="fa-brands fa-square-twitter text-dark"></i>
                     </a>
 
