@@ -43,7 +43,7 @@ export function QuoteBox() {
                         <i class="fa-brands fa-square-twitter text-dark"></i>
                     </a>
 
-                    <button id="new-quote" className="btn btn-dark col-3" onClick={handleClick} >New quote</button>
+                    <button id="new-quote" className="p-1 btn btn-dark col-3" onClick={handleClick} >New quote</button>
                 </div>
             </div>
         </div>
