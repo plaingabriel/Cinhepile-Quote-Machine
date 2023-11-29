@@ -48,7 +48,7 @@ const quotes = [
 ];
 
 // Person object
-type Person = {
+export type Person = {
   quote: String;
   author: String;
   url: String;
